@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <title>javaScript wep sitesi</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div class ="nav">
+            <nav>
+                <ul class="nav">
+                    <li><a href = "deneme.html"> Ana Sayfa</a></li>
+                    <li><a href = "#haberler"> Haberler</a></li>
+                    <li><a href = "#html"> HTML</a></li>
+                    <li><a href = "#css"> CSS</a></li>
+                    <li><a href = "#javaScript"> javaScript</a>
+                <ul>
+                        <li><a href = "giris.html"> JavaScript Giriş</a></li>
+                        <li><a href = "yazim.html"> Yazım(Syntax)</a></li>
+                        <li><a href = "degiskenler.html"> Değişkenler</a></li>
+                        <li><a href = "operator.html"> Operatörler</a></li>
+                        <li><a href = "aritmetik.html"> Aritmetik</a></li>
+                        <li><a href = "veritip.html"> Veri Tipleri</a></li>
+                        <li><a href = "fonksiyon.html"> Fonksiyon Yapısı</a></li>
+                        <li><a href = "olaylar.html"> Olaylar</a></li>
+                        <li><a href = "dizi.html"> Dizi İşlemleri</a></li>
+                        <li><a href = "kosul.html"> Koşul Yapıları</a></li>
+                        <li><a href = "dongu.html"> Döngüler</a></li>
+                        <li><a href = "tip.html"> Tip Dönüşümleri</a></li>
+                        <li><a href = "calismavemimari.html"> Çalışma Yapısı ve Mimari</a>
+                    </ul>
+                    </li>
+                    <li><a href = "#"> İletişim</a></li>
+                </ul>
+            </nav>    
+        </div>
+        <h1 class="baslik">Javascript Fonksiyon</h1>
+        <p class="x3">Bir JavaScript fonksiyonu, özel bir işlemi yerine getirmek için tasarlanmış bir blok koddur.<br>
+            Bir JavaScript fonksiyonu farklı bir kod tarafından çağrıldığı zaman çalışır.<br>
+        </p>
+        <h2 class="baslik">Neden Fonksiyon Kullanırız?</h2>
+        <p class="x3">Fonksiyonlar sayesinde yazdığımız kodları tekrar tekrar kullanabiliriz.
+            Aynı kodu tekrar yazmamız gerekmez.<br>
+            Fonksiyonlar uygulamaların daha küçük parçalara bölünmesini sağlar.<br>
+            Böylelikle kod daha anlaşılır hale gelir.
+        </p>
+        <p class="x4">function toplama(sayi1, sayi2) {<br>return sayi1 + sayi2;<br>}</p>
+        <p class="x5">function carpma(sayi1, sayi2) {<br>
+                        return sayi1 * sayi2;<br>
+            }<br>
+            document.getElementById("demo").innerHTML = carpma;<br>
+        </p>
+        <p class="x5">// Fonksiyonun dönen değerini bir değişkene atayabilirsiniz;<br>
+            var sonuc = carpma(4,3);<br>
+            var metin = "Bu işlemin sonucu:" + sonuc;<br>
+            var metin = = "Bu işlemin sonucu:" + carpma(4,3);<br>
+        </p>
+
+    </body>
+</html>

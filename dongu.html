@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <title>javaScript wep sitesi</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div class ="nav">
+            <nav>
+                <ul class="nav">
+                    <li><a href = "deneme.html"> Ana Sayfa</a></li>
+                    <li><a href = "#haberler"> Haberler</a></li>
+                    <li><a href = "#html"> HTML</a></li>
+                    <li><a href = "#css"> CSS</a></li>
+                    <li><a href = "#javaScript"> javaScript</a>
+                <ul>
+                        <li><a href = "giris.html"> JavaScript Giriş</a></li>
+                        <li><a href = "yazim.html"> Yazım(Syntax)</a></li>
+                        <li><a href = "degiskenler.html"> Değişkenler</a></li>
+                        <li><a href = "operator.html"> Operatörler</a></li>
+                        <li><a href = "aritmetik.html"> Aritmetik</a></li>
+                        <li><a href = "veritip.html"> Veri Tipleri</a></li>
+                        <li><a href = "fonksiyon.html"> Fonksiyon Yapısı</a></li>
+                        <li><a href = "olaylar.html"> Olaylar</a></li>
+                        <li><a href = "dizi.html"> Dizi İşlemleri</a></li>
+                        <li><a href = "kosul.html"> Koşul Yapıları</a></li>
+                        <li><a href = "dongu.html"> Döngüler</a></li>
+                        <li><a href = "tip.html"> Tip Dönüşümleri</a></li>
+                        <li><a href = "calismavemimari.html"> Çalışma Yapısı ve Mimari</a>
+                    </ul>
+                    </li>
+                    <li><a href = "#"> İletişim</a></li>
+                </ul>
+            </nav>    
+        </div>
+        <h1 class="baslik">Döngüler ve Yinelemeler</h1>
+        <p class="x3">JavaScript'teki döngü ifadeleri aşağıdaki şekilde listelenmiştir:<br>
+            for döngüsü<br>
+            do...while döngüsü<br>
+            while döngüsü<br>
+            Etiketlenmiş ifadeler<br>
+            break ifadesi<br>
+            continue ifadesi<br>
+            for...in ifadesi<br>
+            for...of ifadesi
+        </p>
+        <h2 class="baslik">for Döngüsü</h2>
+        <p class="x5">for ([başlangıçAtaması]; [koşulİfadesi]; [arttırımİfadesi]) {<br>ifade<br>};</p>
+        <h2 class="baslik">do...while Döngüsü</h2>
+        <p class="x4">do {<br>ifade<br>}while (koşul);</p>
+        <h2 class="baslik">while Döngüsü</h2>
+        <p class="x4">while (koşul) {<br>ifade<br>};</p>
+        <h2 class="baslik">Etiketlenmiş ifadeler</h2>
+        <p class="x3">Bir etiketlenmiş ifadede , bir anahtar kelime ve bu kelimeye bağlı çalıştırılacak bir ifade bulunur.<br>
+            Örneğin, bir döngü, anahtar kelime ile etiketlenerek, uygulama içerisindeki herhangi bir yerden çalıştırılabilir.<br>
+            Bu örnekte, döngüyüİşaretle etiketi while döngüsünü tanımlar.
+        </p>
+        <p class="x5">döngüyüİşaretle:<br>while (işaret == true) {<br>ifade</br>};</p>
+        <h2 class="baslik">break İfadesi</h2>
+        <p class="x3">break ifadesi kullanılarak bir döngüden, switch ifadesinden veya herhangi bir etiketlenmiş ifadeden çıkılabilir.<br>
+            Etiket olmayan bir blokta break ifadesini kullandığınızda, break'i çevreleyen en içteki while, do-while, for, veya switch ifadesinden<br>çıkılır ve koddaki sonraki komutların çalıştırılmasına devam edilir.<br>
+            Etiket olan bir blokta break ifadesini kullanıldığında, etiketlenmiş olan ifadeden çıkılır.
+        </p>
+        <p class="x2">for (var i = 0; i < a.length; i++) {<br>  if (a[i] == değer) {<br> break;</br>}<br>}</p>
+        <h2 class="baslik">for  in İfadesi</h2>
+        <p class="x3">for...in döngüsü, bir nesnenin sayılabilir (enumerable) özelliklerinin üzerinde dolaşılmasını sağlar.<br>
+        <p class="x4">for (değişken in nesne) {<br>çalıştırılacak_ifadeler<br>}</p> 
+        <h2 class="baslik">for  of İfadesi</h2>
+        <p class="x3">for...of ifadesi bir döngü oluşturur ve gezilebilir (iterable) nesneler (Array, Map, Set, arguments nesnesi vb.) üzerinde gezer..<br>
+        </p>
+        <p class="x4">for (değişken of nesne) {<br>çalıştırılacak_ifadeler<br>}</p>
+    </body>
+</html>

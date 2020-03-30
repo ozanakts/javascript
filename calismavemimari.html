@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <title>javaScript wep sitesi</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div class ="nav">
+            <nav>
+                <ul class="nav">
+                    <li><a href = "deneme.html"> Ana Sayfa</a></li>
+                    <li><a href = "#haberler"> Haberler</a></li>
+                    <li><a href = "#html"> HTML</a></li>
+                    <li><a href = "#css"> CSS</a></li>
+                    <li><a href = "#javaScript"> javaScript</a>
+                <ul>
+                        <li><a href = "giris.html"> JavaScript Giriş</a></li>
+                        <li><a href = "yazim.html"> Yazım(Syntax)</a></li>
+                        <li><a href = "degiskenler.html"> Değişkenler</a></li>
+                        <li><a href = "operator.html"> Operatörler</a></li>
+                        <li><a href = "aritmetik.html"> Aritmetik</a></li>
+                        <li><a href = "veritip.html"> Veri Tipleri</a></li>
+                        <li><a href = "fonksiyon.html"> Fonksiyon Yapısı</a></li>
+                        <li><a href = "olaylar.html"> Olaylar</a></li>
+                        <li><a href = "dizi.html"> Dizi İşlemleri</a></li>
+                        <li><a href = "kosul.html"> Koşul Yapıları</a></li>
+                        <li><a href = "dongu.html"> Döngüler</a></li>
+                        <li><a href = "tip.html"> Tip Dönüşümleri</a></li>
+                        <li><a href = "calismavemimari.html"> Çalışma Yapısı ve Mimari</a>
+                        
+                    </ul>
+                    </li>
+                    <li><a href = "#"> İletişim</a></li>
+                </ul>
+            </nav>    
+        </div>
+        <h1 class="baslik">Javascript Nasıl Çalışır</h1>
+        <p class="x3">Çoğumuz Google’un popüler Javascript Engine olan V8 engine duymuştur. B8 hem Chrome içinde hem de Node.js içinde kullanılır.<br> Bu bölümde klasik bir Javascript Engine’in çalışma üzerinedir.<br>
+            Klasik bir Javascript Engine iki ana bileşenden oluşur:<br><br>
+            <strong>Heap:</strong>  bellek tahsisinin gerçekleştiği yer<br>
+            <strong>Call Stack:</strong> Kodumuzun yürütüldüğü stack çerçevelerinin olduğu yer
+        </p>
+        <center><img  src="JS_01.gif"  height="465px" width="599px"></center>
+        <p class="x3"><strong>Heap:</strong><br><br>
+            Aynı zamanda “free store” olarak da bilinen heap, rasgele verileri saklamak için kullanılabilecek bellekteki büyük bir bölgedir.<br>
+            Bu yüzden çok daha yavaştır ve klasik dillerdeki C gibi veri yapıları için kullanılır. Heap problemi Bilgisayar bilimlerinin temel problemlerindendir.<br>
+            İşlemleri yaparken heap verilerini hızlıca bulmak için, üzerine bir işaretçi stack’te depolanır.<br>
+        </p>
+        <p class="x3"><strong>Stack:</strong><br><br>
+            Stack, İlk Giren Son Çıkar (FILO) modunda çalışan, bellekteki bir bölgedir. Yeni bir iş parçacığı bir bilgisayar programı tarafından <br>
+            başlatıldığında (genellikle önce ana iş parçacığı çalışır), yeni birstack oluşturulur. Küçüktür ve geçici verileri hızla depolamak ve <br>
+            almak için kullanılabilir. Stack, hızlı kalmasını ve yığın taşmasını engellemek için  genellikle düşük maliyetli veriler için kullanılır.<br>
+            Basit veri türleri (integer, float, pointer … gibi) ve fonksiyonlar bunlara örnek gösterilebilir. Alttaki şekil, birbirini çağıran fonksiyonların<br>
+            stackta tutulmasına bir örnektir.<br><br>
+            Javascript single-threaded’tir, bir stack ve bir heap’e sahiptir. Bu sebepten dolayı bir programı çalıştırdığınızda o program içinde bir fonksiyon<br>
+            gerçekleşmeden diğer fonksiyonlara geçmez. Aslında böyle olması da mantıklıdır.Multi-threaded bir yapı da olsa idi, sorun yaratırdı. Örneğin, internet<br>
+            gibi bir ortamda A ve B fonksiyonları olsun ve karşıdan yüklensinler. B, A’dan veri bekleyen bir fonksiyon olsun. Eğer ilk B biterse ve çalışırsa A veri<br>
+            üretmediği için sorun çıkar. Burada stack sınırlıdır. Eğer birbirini çağıran fonksiyonlar sonsuz döngüye girerse “Maximum call stack size exceeded” hatasını<br>
+             alırsınız.<br><br>
+            Bir web sayfası isteği yaptığımızda sadece yukarıdaki bölümler oluşmaz. Klasik bir Javascript Engine (örneğin V8) aşağıdaki gibi bir yapı oluşturur.
+        </p>
+        <center><img  src="JS_02.png"  height="465px" width="599px"></center><br>
+        <center><img  src="JS_03.gif"  height="465px" width="599px"></center>
+    </body>
+</html>

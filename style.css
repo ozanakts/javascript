@@ -1,0 +1,122 @@
+
+body{
+
+   /* background-image: url('indir.png');
+
+    background-repeat: repeat;
+    background-size: 75% 75%;
+    position: center;*/
+    /*background: linear-gradient(red, blue)*/
+    
+    background-color: #ffff;
+    background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+}
+.nav{
+    width: 100%;
+    background: #000033;
+    height: 80px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+ul li{
+    float: left;
+    margin-top: 20px;
+}
+ul li a{
+    width: 150px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: serif;
+    font-weight: bold;
+}
+a:hover{
+    background: #669900;
+}
+ul li ul{
+    background: #000033;
+}
+ul li ul li {
+    float: none;
+}
+ul li ul{
+    display: none;
+}
+ul li:hover ul{
+    display: block;
+}
+p.x3{
+    text-align: center;
+    font-size: 20px;
+}
+p.x2{
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px 2px 5px red;
+    border: 2px solid blue;
+    text-align: justify;
+    width: 300px;
+    height: 120px;
+    font-size: 20px;
+}
+h1.baslik{
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+h2.baslik{
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+p.x4{
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px 2px 5px red;
+    border: 2px solid blue;
+    text-align: justify;
+    width: 400px;
+    height: 70px;
+    font-size: 20px;
+}
+p.x5{
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px 2px 5px red;
+    border: 2px solid blue;
+    text-align: justify;
+    width: 500px;
+    height: 90px;
+    font-size: 20px;
+}
+p.x6{
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px 2px 5px red;
+    border: 2px solid blue;
+    text-align: justify;
+    width: 530px;
+    height: 30px;
+    font-size: 20px;
+}
+p.x7{
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px 2px 5px red;
+    border: 2px solid blue;
+    text-align: justify;
+    width: 530px;
+    height: 150px;
+    font-size: 20px;
+}

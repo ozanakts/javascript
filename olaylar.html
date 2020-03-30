@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <title>javaScript wep sitesi</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div class ="nav">
+            <nav>
+                <ul class="nav">
+                    <li><a href = "deneme.html"> Ana Sayfa</a></li>
+                    <li><a href = "#haberler"> Haberler</a></li>
+                    <li><a href = "#html"> HTML</a></li>
+                    <li><a href = "#css"> CSS</a></li>
+                    <li><a href = "#javaScript"> javaScript</a>
+                <ul>
+                        <li><a href = "giris.html"> JavaScript Giriş</a></li>
+                        <li><a href = "yazim.html"> Yazım(Syntax)</a></li>
+                        <li><a href = "degiskenler.html"> Değişkenler</a></li>
+                        <li><a href = "operator.html"> Operatörler</a></li>
+                        <li><a href = "aritmetik.html"> Aritmetik</a></li>
+                        <li><a href = "veritip.html"> Veri Tipleri</a></li>
+                        <li><a href = "fonksiyon.html"> Fonksiyon Yapısı</a></li>
+                        <li><a href = "olaylar.html"> Olaylar</a></li>
+                        <li><a href = "dizi.html"> Dizi İşlemleri</a></li>
+                        <li><a href = "kosul.html"> Koşul Yapıları</a></li>
+                        <li><a href = "dongu.html"> Döngüler</a></li>
+                        <li><a href = "tip.html"> Tip Dönüşümleri</a></li>
+                        <li><a href = "calismavemimari.html"> Çalışma Yapısı ve Mimari</a>
+                    </ul>
+                    </li>
+                    <li><a href = "#"> İletişim</a></li>
+                </ul>
+            </nav>    
+        </div>
+        <h1 class="baslik">JavaScript Olaylar(Events)</h1>
+        <p class="x3">JavaScript'in en büyük amacı, sayfamızda bir olay gerçekleştiğinde istediğimiz işlemleri gerçekleştirebilmemizi sağlamaktır. Bunu sağlamak <br>
+            için sayfada gerçekleşebilecek olaylara birer isim verilmiştir. İstenilen olay karşısında bir javascript fonksiyonunu çağırıp, ilgili işlemleri yaptırabiliriz.<br>
+            Örneğin bir butona tıklandığında hesapla isimli javascript fonksiyonunu çalıştırmak istiyorsak buton elementinin içine onclick parametresi şu şekilde yazılır:<br>
+        </p>
+        <p class="x6">
+            < input type="button" value="Hesapla" onclick="hesapla()" />
+        </p>
+        <p class="x3">
+            <strong>onClick:</strong> Elemana tıklanması olayıdır.<br>
+            <strong>onDblClick: </strong> Elemana çift tıklanması olayıdır.<br>
+            <strong>onLoad:</strong> Elemanın yüklenmesi olayıdır. Bu sayfanın kendisi olabileceği gibi bir resim ya da frame de olabilir. Sayfa yüklendiğinde direk <br>
+            çalışması istenen bir fonksiyon varsa bu olay ile çağrılabilir:
+            < body onload="girisFonksiyonu()" ><br>
+            <strong>onUnLoad:</strong>Tarayıcıda açık haldeki sayfanın terkedilmesi olayıdır. Bu pencerenin kapatılmasıyla olabileceği gibi bir linke tıklayarak başka <br>bir sayfaya geçilmesi de olabilir.<br>
+            <strong>onFocus:</strong> Bir elemanın seçilerek odaklanılması olayıdır. Örneğin bir metin kutusuna tıklandığında kontrol o kutuya geçer ve kutu aktif olur. <br>Bir sonraki konuda bununla ilgili bir örnek bulunmaktadır.<br>
+            <strong>onBlur: </strong> Aktif haldeki elemanın terk edilmesi olayıdır. Örneğin bir metin kutusu aktifken, başka bir yere tıklanarak kutudan çıkıldığında blur<br> olayı meydana gelmiş olur.<br>
+            <strong>onMouseOver:</strong>Fare ile elemanın üzerine gelinmesi olayıdır.<br>
+            <strong>onMouseOut:</strong>Fare imlecinin elemanın üzerinden çekilmesi olayıdır.<br>
+            <strong>onMouseMove:</strong>Fare imlecinin, eleman üzerinde hareket ettirilmesi olayıdır.<br>
+            <strong>onMouseDown:</strong>Fare sol tuşunun eleman üzerindeyken basılması olayıdır. Tuş aşağıya indiği anda ilgili fonksiyon çalışır.<br>
+            <strong>onMouseUp:</strong>Fare sol tuşunun eleman üzerindeyken basılıp bırakılması olayıdır. Fare tuşu aşağıdayken çalışmaz, tuş bırakıldığında çalışır.<br>
+            <strong>onKeyDown:</strong>Klavyeden bir tuşa basılması olayıdır. Basılan tuşun ASCII kodu Event.keyCode özelliği ile öğrenilebilir. String.fromCharCode metodu<br> ise okunan karakter kodunu tuşun ismine çevirebilir.<br>
+            <strong>onSelectr:</strong>Bir metin kutusu içindeki metnin seçilmesi olayıdır.<br>
+            <strong>onResize:</strong>Tarayıcı penceresinin boyutunun değiştirilmesi olayıdır.<br>
+
+            <br>
+        </p>
+    </body>
+</html>
